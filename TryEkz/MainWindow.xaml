@@ -1,0 +1,18 @@
+﻿<Window x:Class="TryEkz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TryEkz"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="278.5" Width="330.873">
+    <Grid Background="#FF009FDA">
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="104,78,0,0" VerticalAlignment="Top" FontFamily="Arial"/>
+        <TextBox x:Name="loginText" HorizontalAlignment="Left" Height="23" Margin="104,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="104,137,0,0" VerticalAlignment="Top" FontFamily="Arial"/>
+        <PasswordBox x:Name="passwordText" HorizontalAlignment="Left" Height="23" Margin="104,166,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="loginBTN" Content="Войти" HorizontalAlignment="Left" Margin="104,194,0,0" VerticalAlignment="Top" Width="120" FontFamily="Arial" Click="loginBTN_Click" Background="#FF004165" Foreground="White"/>
+        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="88,39,0,0" VerticalAlignment="Top" FontSize="21" FontFamily="Arial" Foreground="#FFFECB00"/>
+
+    </Grid>
+</Window>
